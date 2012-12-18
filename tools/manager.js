@@ -27,14 +27,14 @@ var BENCH_SETTINGS = {
   },
   normal: {
     starter:  {parallels:1,  timeout:30, procs:1},
-    httpload: {parallels:50, timeout:BENCH_SECONDS_SHORT, procs:2},
-    buyer:    {parallels:25, timeout:BENCH_SECONDS_SHORT, procs:4},
+    httpload: {parallels:25, timeout:BENCH_SECONDS_SHORT, procs:2},
+    buyer:    {parallels:10, timeout:BENCH_SECONDS_SHORT, procs:4},
     checker:  {parallels:1,  timeout:BENCH_SECONDS_SHORT, procs:1}
   },
   restricted: {
     starter:  {parallels:1,  timeout:30,  procs:1},
-    httpload: {parallels:50, timeout:BENCH_SECONDS_NORMAL, procs:2},
-    buyer:    {parallels:25, timeout:BENCH_SECONDS_NORMAL, procs:4},
+    httpload: {parallels:25, timeout:BENCH_SECONDS_NORMAL, procs:2},
+    buyer:    {parallels:10, timeout:BENCH_SECONDS_NORMAL, procs:4},
     checker:  {parallels:1,  timeout:BENCH_SECONDS_NORMAL, procs:1}
   }
 };
