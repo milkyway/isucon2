@@ -1,0 +1,12 @@
++{
+  pog_simple => {
+    model  => 'Pog::Storage::DB::Model::PogSimple',
+    master => [
+      {
+        dsn      => 'dbi:mysql:pog_simple:localhost',
+        username => 'root',
+        password => undef,
+      },
+    ],
+  },
+};

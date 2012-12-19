@@ -7,6 +7,7 @@ use Kossy;
 
 use DBIx::Sunny;
 use JSON 'decode_json';
+use Isucon2::API;
 
 sub load_config {
     my $self = shift;
